@@ -1,0 +1,835 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    width: 98%;
+    height: 120px;
+    
+}
+
+
+
+.back{
+    display: flex; 
+    width: 15%;
+     align-items: center;
+    
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: none;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    display: none;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+}
+
+#h1:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid rgb(145, 236, 145);
+}
+
+.sound{
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+     align-items: center;
+    
+}
+
+/* color pellete */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+
+}
+
+.color{
+
+    width: 298px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.div1{
+   
+
+    background-color: #005C53;
+}
+
+.div2{
+    
+    background-color: #FFF8DE;
+}
+
+.div3{
+    
+    background-color: #AAC4F5;
+}
+
+.div4{
+   
+    background-color: #FFC4C4;
+}
+
+.div5{
+   
+    
+    background-color: #FE6244;
+}
+
+.div6{
+   
+    background-color: #A8BBA3;
+}
+
+.div6{
+   
+    background-color: #658C58;
+}
+
+.div7{
+   
+    background-color: #CD2C58;
+}
+
+.div8{
+   
+    background-color: #70B2B2;
+}
+
+.div9{
+   
+    background-color: #F5AD18;
+}
+
+.div10{
+   
+    background-color: #6B3F69;
+}
+
+.div11{
+   
+    background-color: #E62727;
+}
+
+.div12{
+   
+    background-color: #9112BC;
+    
+}
+
+.div13{
+   
+    background-color: #FF714B;
+    
+}
+
+.div14{
+   
+    background-color: #FAD691;
+    
+}
+
+.div15{
+   
+    background-color: #08CB00;
+    
+}
+
+.div16{
+   
+    background-color: #FFE100;
+    
+}
+
+.div17{
+   
+    background-color: #F5BABB;
+    
+}
+
+.bac{
+    background-color:red;
+}
+
+.div16{
+   
+    background-color: #F9CB99;
+    
+}
+
+.div17{
+   
+    background-color: #00809D;
+    
+}
+
+.div18{
+   
+    background-color: #799EFF;
+    
+}
+
+.div19{
+   
+    background-color: #8ABB6C;
+    
+}
+
+.div20{
+   
+    background-color: #FF2DD1;
+    
+}
+
+.div21{
+   
+    background-color: #456882;
+    
+}
+
+.div22{
+   
+    background-color: #D1A980;
+    
+}
+
+.div23{
+   
+    background-color: #CFFFE2;
+    
+}
+
+.div24{
+   
+    background-color:#F5AD18;
+    
+}
+
+/* responsive */
+
+/* small mobile */
+
+@media (min-width: 320px) and (max-width: 375px){
+
+   nav{
+    /* padding: 20px; */
+    display: flex;
+    width: 320px;
+    height: 100px;
+    /* gap: 5px; */
+   
+}
+
+nav > div > h1{
+    font-size: 9px;
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: none;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: none;
+}
+
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+    display: block;
+    margin-left: 8px;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 7px;
+    display: block;
+}
+
+
+
+.back{
+
+
+    width: 25%;
+}
+
+.sound{
+
+    
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.color{
+
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 320px;
+}
+
+
+
+
+
+}
+
+/* medium mobile */
+
+@media (min-width: 375px) and (max-width: 425px){
+
+   nav{
+    /* padding: 20px; */
+    display: flex;
+    width: 375px;
+    height: 100px;
+    /* gap: 5px; */
+   
+}
+
+nav > div > h1{
+    font-size: 9px;
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: none;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: none;
+}
+
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+    display: block;
+    margin-left: 8px;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    display: block;
+}
+
+
+
+.back{
+
+
+    width: 25%;
+}
+
+.sound{
+
+    
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.color{
+
+    width: 360px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 375px;
+}
+
+
+
+
+
+}
+
+/* large mobile */
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+   nav{
+    /* padding: 20px; */
+    display: flex;
+    width: 425px;
+    height: 100px;
+    /* gap: 5px; */
+   
+}
+
+nav > div > h1{
+    font-size: 9px;
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: none;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: none;
+}
+
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+    display: block;
+    margin-left: 8px;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    display: block;
+}
+
+
+
+.back{
+
+
+    width: 25%;
+}
+
+.sound{
+
+    
+    width: 25%;
+    justify-content: center;
+}
+
+.color{
+
+    width: 135px;
+    height: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 425px;
+}
+
+}
+
+/* tablet 768px */
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+   nav{
+    
+    display: flex;
+    width: 768px;
+    height: 100px;
+    
+   
+}
+
+nav > div > h1{
+    font-size: 17px;
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: block;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: block;
+    font-size: 17px;
+    
+}
+
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+    display: none;
+    margin-left: 8px;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    display: none;
+}
+
+
+
+.back{
+
+
+    width: 25%;
+}
+
+.sound{
+
+    
+    width: 25%;
+    justify-content: center;
+}
+
+.color{
+
+    width: 85px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 7px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 768px;
+}
+
+}
+
+/* leptop screen 1024px */
+
+@media (min-width: 1024px) and (max-width: 1440px){
+
+    
+   nav{
+    
+    display: flex;
+    width: 1024px;
+    height: 100px;
+    
+   
+}
+
+nav > div > h1{
+    font-size: 17px;
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: block;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: block;
+    font-size: 17px;
+    
+}
+
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+    display: none;
+    margin-left: 8px;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    display: none;
+}
+
+
+
+.back{
+
+
+    width: 25%;
+}
+
+.sound{
+
+    
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.color{
+
+    width: 148px;
+    height: 230px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    font-size: 7px;
+    
+}
+
+.none{
+    display: none;
+}
+
+.container{
+    display: flex;
+    
+    width: 1024px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+}
+
+
+/* leptop screen */
+
+@media (min-width: 1440px) and (max-width: 2526px){
+
+    
+   nav{
+    
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    
+   
+}
+
+nav > div > h1{
+    font-size: 17px;
+}
+
+.code{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    display: block;
+}
+
+#h1{
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: block;
+    font-size: 17px;
+    
+}
+
+
+.cod{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+    display: none;
+    margin-left: 8px;
+}
+
+.h11{
+
+    background-color: rgb(145, 236, 145);
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    display: none;
+}
+
+
+
+.back{
+
+
+    width: 25%;
+}
+
+.sound{
+
+    
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.color{
+
+    width: 200px;
+    height: 300px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    font-size: 9px;
+    
+}
+
+.none{
+    display: none;
+}
+
+.display{
+    display: none;
+}
+
+.container{
+    display: flex;
+    
+    width: 1440px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+}
+
+
