@@ -207,6 +207,8 @@ a{
     
 }
 
+/* mobile */
+
 @media (max-width: 320px){
 
 .back{
@@ -289,8 +291,9 @@ a{
 
 .col{
     width: 20%;
-    height: 100px;
+    height: 150px;
     font-size: 5px;
+    
     
 }
 
@@ -378,7 +381,7 @@ a{
 
 .col{
     width: 20%;
-    height: 100px;
+    height: 150px;
     font-size: 6px;
     
 }
@@ -470,12 +473,14 @@ a{
 
 .col{
     width: 20%;
-    height: 100px;
+    height: 150px;
     font-size: 7px;
     
 }
 
 }
+
+/* tablet and leptop */
 
 @media (min-width: 500px) and (max-width: 768px){
 

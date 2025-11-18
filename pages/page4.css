@@ -99,6 +99,7 @@ a{
     align-items: center;
     color: white;
     
+    
 }
 
 .color1{
@@ -379,7 +380,7 @@ a{
 .col{
     width: 20%;
     height: 100px;
-    font-size: 6px;
+    font-size: 5px;
     
 }
 
@@ -470,8 +471,8 @@ a{
 
 .col{
     width: 20%;
-    height: 100px;
-    font-size: 7px;
+    height: 150px;
+    font-size: 6px;
     
 }
 
